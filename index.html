@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nandanik Caterer | Authentic Cuisine & Fine Catering</title>
+  <meta name="description" content="Nandanik Caterer brings the finest authentic culinary tradition to your most cherished celebrations. Specializing in Mutton Biryani, Chingri Malai Curry, Bhetki Fish Fry and more." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== PRELOADER ===================== -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-logo">
+        <span class="logo-text-pre">Nandanik</span>
+        <span class="logo-tagline-pre">Caterer</span>
+      </div>
+      <div class="preloader-bar"><div class="preloader-fill" id="preloaderFill"></div></div>
+    </div>
+  </div>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">✦</span>
+        <div class="logo-text-group">
+          <span class="logo-main">Nandanik</span>
+          <span class="logo-sub">Caterer</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Book Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">✦ Since 2015 · Authentic Cuisine ✦</div>
+      <h1 class="hero-title reveal-up">
+        Where Every <em>Flavour</em><br />Tells a Royal Story
+      </h1>
+      <p class="hero-subtitle reveal-up">
+        Authentic cuisine crafted with generations of culinary mastery,<br />
+        served at your most cherished celebrations.
+      </p>
+      <div class="hero-actions reveal-up">
+        <a href="#menu" class="btn-primary">Explore Our Menu</a>
+        <a href="#contact" class="btn-ghost">Book an Event</a>
+      </div>
+      <div class="hero-stats reveal-up">
+        <div class="stat-item">
+          <span class="stat-num" data-target="500">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Events Catered</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="10">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years of Excellence</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="98">0</span><span class="stat-plus">%</span>
+          <span class="stat-label">Happy Clients</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== MARQUEE ===================== -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Mutton Biryani</span><span class="sep">✦</span>
+      <span>Chingri Malai Curry</span><span class="sep">✦</span>
+      <span>Bhetki Fish Fry</span><span class="sep">✦</span>
+      <span>Chicken Rezala</span><span class="sep">✦</span>
+      <span>Polau</span><span class="sep">✦</span>
+      <span>Pomfret Fry</span><span class="sep">✦</span>
+      <span>Pea Rice</span><span class="sep">✦</span>
+      <span>Kosha Mangsho</span><span class="sep">✦</span>
+      <span>Mishti Doi</span><span class="sep">✦</span>
+      <span>Mutton Biryani</span><span class="sep">✦</span>
+      <span>Chingri Malai Curry</span><span class="sep">✦</span>
+      <span>Bhetki Fish Fry</span><span class="sep">✦</span>
+      <span>Chicken Rezala</span><span class="sep">✦</span>
+      <span>Polau</span><span class="sep">✦</span>
+      <span>Pea Rice</span><span class="sep">✦</span>
+      <span>Kosha Mangsho</span><span class="sep">✦</span>
+      <span>Mishti Doi</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-img-frame">
+            <img src="images/mutton_biryani.png" alt="Nandanik signature Mutton Biryani" class="about-img" />
+          </div>
+          <div class="about-accent-card">
+            <i class="fa-solid fa-award"></i>
+            <span>Award-Winning<br/>Authentic Cuisine</span>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <div class="section-label">Our Legacy</div>
+          <h2 class="section-title">A Heritage of<br /><em>Extraordinary</em> Taste</h2>
+          <p class="about-text">
+            Born in the heart of Kolkata, Nandanik Caterer has spent over seven years perfecting the art of authentic culinary tradition. Each dish is a love letter to our rich cultural heritage — crafted with hand-picked spices, time-honoured recipes, and an unwavering commitment to excellence.
+          </p>
+          <p class="about-text">
+            From intimate gatherings to grand weddings of hundreds, we bring the same passion, precision, and royal experience to every table we serve.
+          </p>
+          <div class="about-features">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-leaf"></i></div>
+              <div>
+                <h4>Farm-Fresh Ingredients</h4>
+                <p>Sourced daily from trusted local markets</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+              <div>
+                <h4>Traditional Cooking Techniques</h4>
+                <p>Slow-cooked for authentic depth of flavour</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div>
+                <h4>Hygienic</h4>
+                <p>Uncompromising standards of cleanliness</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MENU ===================== -->
+  <section class="menu section" id="menu">
+    <div class="container">
+      <div class="section-label text-center reveal-up">Our Signature Creations</div>
+      <h2 class="section-title text-center reveal-up">Royal <em>Menu</em> Selections</h2>
+      <p class="section-subtitle text-center reveal-up">
+        Each recipe is a masterpiece, passed down through generations and elevated for modern celebrations.
+      </p>
+
+      <div class="menu-grid">
+
+        <div class="menu-card reveal-up">
+          <div class="menu-card-img-wrap">
+            <img src="images/mutton_biryani.png" alt="Mutton Biryani" />
+            <span class="menu-tag">Bestseller</span>
+          </div>
+          <div class="menu-card-body">
+            <h3>Mutton Biryani</h3>
+            <p>Slow-cooked mutton layered with saffron-infused basmati, dum-sealed in traditional handi. A crown jewel of Bengali festivity.</p>
+            <div class="menu-card-footer">
+              <span class="menu-cuisine-tag">Non-Veg</span>
+              <span class="menu-spice">🌶🌶🌶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal-up">
+          <div class="menu-card-img-wrap">
+            <img src="images/polau_rice.png" alt="Polau" />
+            <span class="menu-tag">Classic</span>
+          </div>
+          <div class="menu-card-body">
+            <h3>Polau</h3>
+            <p>Fragrant basmati rice cooked in ghee with whole spices, raisins, and cashews. The soul of every Bengali celebration spread.</p>
+            <div class="menu-card-footer">
+              <span class="menu-cuisine-tag veg">Vegetarian</span>
+              <span class="menu-spice">🌶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal-up">
+          <div class="menu-card-img-wrap">
+            <img src="images/bhetki_fish_fry.png" alt="Bhetki Fish Fry" />
+            <span class="menu-tag">Fan Favourite</span>
+          </div>
+          <div class="menu-card-body">
+            <h3>Bhetki Fish Fry</h3>
+            <p>Kolkata's iconic golden-fried Bhetki fillet, marinated in mustard and ginger, encased in a perfectly crisp breadcrumb crust.</p>
+            <div class="menu-card-footer">
+              <span class="menu-cuisine-tag">Non-Veg</span>
+              <span class="menu-spice">🌶🌶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal-up">
+          <div class="menu-card-img-wrap">
+            <img src="images/chingri_malai_curry.png" alt="Chingri Malai Curry" />
+            <span class="menu-tag">Chef's Special</span>
+          </div>
+          <div class="menu-card-body">
+            <h3>Chingri Malai Curry</h3>
+            <p>Royal tiger prawns bathed in a velvety coconut milk gravy, kissed with cardamom and bay leaf — pure aristocratic indulgence.</p>
+            <div class="menu-card-footer">
+              <span class="menu-cuisine-tag">Non-Veg</span>
+              <span class="menu-spice">🌶🌶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal-up">
+          <div class="menu-card-img-wrap">
+            <img src="images/pea_rice.png" alt="Pea Rice" />
+            <span class="menu-tag">Seasonal Special</span>
+          </div>
+          <div class="menu-card-body">
+            <h3>Pea Rice</h3>
+            <p>Delicate Motorshutir Polao — basmati cooked with sweet fresh peas, ghee and warming spices, a winter favourite elevated to festive status.</p>
+            <div class="menu-card-footer">
+              <span class="menu-cuisine-tag veg">Vegetarian</span>
+              <span class="menu-spice">🌶</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal-up">
+          <div class="menu-card-img-wrap">
+            <img src="images/chicken_rezala.png" alt="Chicken Rezala" />
+            <span class="menu-tag">Mughal Heritage</span>
+          </div>
+          <div class="menu-card-body">
+            <h3>Chicken Rezala</h3>
+            <p>A Mughal masterpiece — tender chicken in a white, aromatic gravy of yoghurt, white pepper, poppy seed and kewra. Elegant and unforgettable.</p>
+            <div class="menu-card-footer">
+              <span class="menu-cuisine-tag">Non-Veg</span>
+              <span class="menu-spice">🌶</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="experience-strip">
+    <div class="container">
+      <div class="section-label text-center reveal-up">What We Do</div>
+      <h2 class="section-title text-center reveal-up" style="margin-bottom:48px;">Events We <em>Cater</em></h2>
+      <div class="exp-grid">
+        <div class="exp-item reveal-up">
+          <i class="fa-solid fa-utensils"></i>
+          <h3>Weddings & Receptions</h3>
+          <p>Grand feasts for your most special day, handled with elegance from first course to last.</p>
+        </div>
+        <div class="exp-item reveal-up">
+          <i class="fa-solid fa-champagne-glasses"></i>
+          <h3>Corporate Events</h3>
+          <p>Impress clients and teams with world-class presentation and taste at every corporate affair.</p>
+        </div>
+        <div class="exp-item reveal-up">
+          <i class="fa-solid fa-star"></i>
+          <h3>Private Parties</h3>
+          <p>Intimate gatherings made extraordinary. Every detail tailored to your personal taste.</p>
+        </div>
+        <div class="exp-item reveal-up">
+          <i class="fa-solid fa-people-group"></i>
+          <h3>Pujas & Celebrations</h3>
+          <p>Festivals, anniversaries, and milestones — we bring joy and flavour to life's cherished moments.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALLERY ===================== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-label text-center reveal-up">Visual Feast</div>
+      <h2 class="section-title text-center reveal-up">A Glimpse of Our <em>Craft</em></h2>
+      <div class="gallery-masonry reveal-up">
+        <div class="gallery-item large">
+          <img src="images/mutton_biryani.png" alt="Mutton Biryani" />
+          <div class="gallery-caption">Mutton Biryani</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/chingri_malai_curry.png" alt="Chingri Malai Curry" />
+          <div class="gallery-caption">Chingri Malai Curry</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/chicken_rezala.png" alt="Chicken Rezala" />
+          <div class="gallery-caption">Chicken Rezala</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/bhetki_fish_fry.png" alt="Bhetki Fish Fry" />
+          <div class="gallery-caption">Bhetki Fish Fry</div>
+        </div>
+        <div class="gallery-item large">
+          <img src="images/polau_rice.png" alt="Polau" />
+          <div class="gallery-caption">Polau</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/pea_rice.png" alt="Pea Rice" />
+          <div class="gallery-caption">Pea Rice</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-label text-center reveal-up">Client Stories</div>
+      <h2 class="section-title text-center reveal-up">Words from Our <em>Guests</em></h2>
+      <div class="testimonials-slider reveal-up">
+        <div class="testimonial-track" id="testimonialTrack">
+
+          <div class="testimonial-card">
+            <div class="t-quote"><i class="fa-solid fa-quote-left"></i></div>
+            <p>"The Mutton Biryani at our daughter's wedding was beyond words. Guests are still calling us months later to ask who catered it. Nandanik is in a class of its own."</p>
+            <div class="t-author">
+              <div class="t-avatar">AR</div>
+              <div>
+                <strong>Ananya Roy</strong>
+                <span>Wedding Host · Kolkata</span>
+              </div>
+              <div class="t-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+        <div class="t-quote"><i class="fa-solid fa-quote-left"></i></div>
+          <p>"Absolutely loved the variety and presentation. From starters to desserts, everything was perfectly curated. Our corporate event felt premium because of Nandanik."</p>
+          <div class="t-author">
+            <div class="t-avatar">SD</div>
+            <div>
+              <strong>Sagnik Roy</strong>
+              <span>Corporate Event · Kolkata</span>
+            </div>
+            <div class="t-stars">★★★★★</div>
+          </div>
+        </div>  
+
+          <div class="testimonial-card">
+            <div class="t-quote"><i class="fa-solid fa-quote-left"></i></div>
+            <p>"We hosted a corporate event for 300 attendees and Nandanik delivered flawlessly. The Chicken Rezala and Bhetki Fish Fry had our guests absolutely floored."</p>
+            <div class="t-author">
+              <div class="t-avatar">SD</div>
+              <div>
+                <strong>Sourav Das</strong>
+                <span>Director, TechVenture Ltd.</span>
+              </div>
+              <div class="t-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+          <div class="t-quote"><i class="fa-solid fa-quote-left"></i></div>
+          <p>"The food quality and service were top-notch. Every guest appreciated the flavors, especially the fish fry and sweets. Highly recommended for any celebration!"</p>
+          <div class="t-author">
+            <div class="t-avatar">PM</div>
+            <div>
+              <strong>Sankalpa Banerjee</strong>
+              <span>Birthday Celebration · Kolkata</span>
+            </div>
+            <div class="t-stars">★★★★★</div>
+          </div>
+        </div>
+
+          <div class="testimonial-card">
+            <div class="t-quote"><i class="fa-solid fa-quote-left"></i></div>
+            <p>"Nandanik's Chingri Malai Curry is the most authentic version I've ever tasted. Absolutely phenomenal. Our family uses them exclusively now for every celebration."</p>
+            <div class="t-author">
+              <div class="t-avatar">PM</div>
+              <div>
+                <strong>Priya Mukherjee</strong>
+                <span>Food Enthusiast · Kolkata</span>
+              </div>
+              <div class="t-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="t-quote"><i class="fa-solid fa-quote-left"></i></div>
+            <p>"From planning to the last bite, everything was seamless. Their team is professional, punctual and truly passionate. The food is pure poetry!"</p>
+            <div class="t-author">
+              <div class="t-avatar">RB</div>
+              <div>
+                <strong>Rahul Bose</strong>
+                <span>Anniversary Celebration Host</span>
+              </div>
+              <div class="t-stars">★★★★★</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="testimonial-controls">
+        <button class="t-btn" id="tPrev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="t-dots" id="tDots"></div>
+        <button class="t-btn" id="tNext" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <div class="section-label">Get in Touch</div>
+          <h2 class="section-title">Let's Plan Your<br /><em>Perfect</em> Event</h2>
+          <p class="contact-desc">Tell us about your vision and we'll craft a bespoke dining experience you and your guests will cherish forever.</p>
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="cd-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <span>Call Us</span>
+                <a href="tel:+919679180819">+91-9679180819</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="cd-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span>Email Us</span>
+                <a href="mailto:saikatguiter@gmail.com">saikatguiter@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="cd-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span>Find Us</span>
+                <address>Simlagarh, Hooghly – 712135, West Bengal</address>
+              </div>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/saikat.bhattacharya.104" class="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal-right">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+91 12345 67890" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="eventType">Event Type</label>
+                <select id="eventType" name="eventType">
+                  <option value="" disabled selected>Select event type</option>
+                  <option value="wedding">Wedding / Reception</option>
+                  <option value="corporate">Corporate Event</option>
+                  <option value="birthday">Birthday Party</option>
+                  <option value="puja">Puja / Festival</option>
+                  <option value="anniversary">Anniversary</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="guestCount">Guest Count</label>
+                <input type="number" id="guestCount" name="guestCount" placeholder="Approx. number" min="10" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="eventDate">Preferred Date</label>
+              <input type="date" id="eventDate" name="eventDate" />
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Us More</label>
+              <textarea id="message" name="message" rows="4" placeholder="Your vision, special requests, dietary requirements..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary form-submit" id="formSubmit">
+              <span>Send Enquiry</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fa-solid fa-circle-check"></i>
+              <strong>Thank you!</strong> We'll be in touch within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="nav-logo" style="margin-bottom:16px;display:inline-flex;">
+              <span class="logo-icon">✦</span>
+              <div class="logo-text-group">
+                <span class="logo-main">Nandanik</span>
+                <span class="logo-sub">Caterer</span>
+              </div>
+            </a>
+            <p>Crafting unforgettable culinary experiences for Kolkata's most discerning hosts since 2017.</p>
+          </div>
+          <div class="footer-links-group">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">Our Story</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-group">
+            <h4>Specialities</h4>
+            <ul>
+              <li><a href="#menu">Mutton Biryani</a></li>
+              <li><a href="#menu">Chingri Malai Curry</a></li>
+              <li><a href="#menu">Bhetki Fish Fry</a></li>
+              <li><a href="#menu">Chicken Rezala</a></li>
+              <li><a href="#menu">Polau & Pea Rice</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact-info">
+            <h4>Contact</h4>
+            <p><i class="fa-solid fa-phone"></i> +91 96791 80819</p>
+            <p><i class="fa-solid fa-envelope"></i> saikatguiter@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Simlagarh,</br> Hooghly – 712135,</br> West Bengal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 Nandanik Caterer. All rights reserved. Crafted with <span style="color: var(--gold);">♥</span> in Kolkata.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    <img src="" alt="Gallery Image" id="lightboxImg" />
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
